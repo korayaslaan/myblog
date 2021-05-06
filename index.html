@@ -31,10 +31,10 @@
 <body>
 
     <header id="header" class="header header-hide">
-        <div class="container">
+        <div class="container col-md-2">
 
-            <div id="logo" class="pull-left">
-                <h1><a href="index.html" class="scrollto">Mini Blok</a></h1>
+            <div>
+                <h1><a href="index.html">Mini Blok</a></h1>
 
             </div>
         </div>
@@ -44,25 +44,34 @@
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
             <div class="carousel-inner" role="listbox">
+
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('img/koray/foto1.jpg')">
+                <div class="carousel-item active" style="background-image: url('img/koray/foto2v2.png')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4" style="color:darkgrey">Java</h2>
-                        <p class="lead" style="color: darkgrey;">Nesne Tabanlı Programlama Eğitimimiz</p>
+                        <div style="background-color: #0000005c;">
+                            <h2 class="display-4" style="color:darkgrey">Vuejs</h2>
+
+                            <p class="lead" style="color: darkgrey;">JavaScript Kütüphanelerini En Modern Şekilde Kullanır</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('img/koray/foto3v3.png')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div style="background-color: #0000005c;">
+                            <h2 class="display-4" style="color: darkgrey;">Php</h2>
+                            <p class="lead" style="color: darkgrey;">HTML İçine Gömülebilen Nesne Yönelimli Bir Programlama Dilidir</p>
+                        </div>
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('img/koray/foto2.jpg')">
+                <div class="carousel-item" style="background-image: url('img/koray/foto1v2.png')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4" style="color: darkgrey;">Html5</h2>
-                        <p class="lead" style="color: darkgrey;">Web Sitesi Programlama Eğitimimiz</p>
-                    </div>
-                </div>
-                <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('img/koray/foto4.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4" style="color: darkgrey;">Php</h2>
-                        <p class="lead" style="color: darkgrey;">Veri Tabanı Yönetimi Eğitimimiz</p>
+                        <div style="background-color: #0000005c;">
+                            <h2 class="display-4" style="color: darkgrey;">Html5</h2>
+                            <p class="lead" style="color: darkgrey;">Web Sayfalarını Oluşturma Aşamasında Kullanılan Bir Dildir</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -240,6 +249,7 @@
                             <span>05.05.2021</span>
                             <a class="pull-right readmore" href="https://imagechanges.epsilonarge.com/">Daha Fazlası</a>
                         </div>
+
                     </div>
                 </div>
 
@@ -291,17 +301,11 @@
                         <div>
                             <div>
                                 <div class="template-demo">
-                                    <button type="button" class="btn btn-social-icon btn-outline-facebook">
-                    <i class="fa fa-facebook"></i>
-                  </button>
-                                    <button type="button" class="btn btn-social-icon btn-outline-twitter">
-                    <i class="fa fa-twitter"></i>
-                  </button>
-                                    <button type="button" class="btn btn-social-icon btn-outline-linkedin">
-                    <i class="fa fa-linkedin"></i>
-                  </button> <button type="button" class="btn btn-social-icon btn-outline-instagram">
-                    <i class="fa fa-instagram"></i>
-                  </button>
+                                    <a href="https://www.facebook.com/koray.aslan.562/" class="fa fa-facebook"></a>
+                                    <a href="https://twitter.com/korayaslaan" class="fa fa-twitter"></a>
+                                    <a href="https://www.linkedin.com/in/taha-koray-aslan-774ab9201/" class="fa fa-linkedin"></a>
+                                    <a href="https://www.instagram.com/koray_aslaan/" class="fa fa-instagram"></a>
+
                                 </div>
                             </div>
                         </div>
@@ -361,3 +365,32 @@
 </body>
 
 </html>
+<style>
+    .fa {
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+    
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+</style>
